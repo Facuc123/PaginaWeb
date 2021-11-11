@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: #ffbf75;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #525558;
+    padding: 10px;
+    
+}
+
+nav a:visited, nav a:link{
+    color:black;
+    text-decoration: none;
+}
+
+nav > ul {
+    display: inline;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+    list-style: none;
+    margin:5px 5px 5px 5px;
+}
+
+@media only screen (min-width:768px){
+
+
+}
