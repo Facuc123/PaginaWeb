@@ -76,7 +76,7 @@ article {
     width: 75%;
     background-color: white;
     border-radius: 5px;
-    margin-right: 1%;
+    margin: 1%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -88,7 +88,6 @@ article {
     aside{
         margin-left: 2%;
     }
-
     
 }
 
@@ -99,17 +98,3 @@ article {
 
 }
 
-/* Catálogo*/
-
-.Image {
-    max-height: 15% ;
-    max-width:  10%;
-    
-}
-
-.element-information{
-
-    display: flex;
-    
-    
-}

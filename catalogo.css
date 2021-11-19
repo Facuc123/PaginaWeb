@@ -1,0 +1,55 @@
+/* Catálogo*/
+
+/* imagenes */
+#imageSamsung {
+    max-height: 100% ;
+    max-width:  50%;
+
+}
+
+#imageIphone {
+    max-height: 25%;
+    max-width: 50%;
+}
+
+#imageHuawei {
+    max-width: 60% ;
+    max-height: 90%;
+}
+
+
+section {
+    display: flex;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+section > div {
+    width: 30%;
+    height: 50%;
+}
+
+@media (max-width:768px){
+    section {
+        flex-direction: column;
+    }
+}
+
+.element-information {
+    width: 100%;
+    margin-top: 30px;
+    margin: 30px 0 10px 0;
+}
+
+.title {
+    font-weight: bold;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border-color: #F2930B;
+    background-color: #ffbf75;
+}
