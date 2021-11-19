@@ -23,6 +23,7 @@ header{
 }
 
 
+
 nav a:visited, nav a:link{
     color:white;
     text-decoration: none;
@@ -73,7 +74,7 @@ aside {
 
 article {
     width: 75%;
-    background-color: #E5EBEA;
+    background-color: white;
     border-radius: 5px;
     margin-right: 1%;
 }
@@ -96,4 +97,19 @@ article {
     max-height: 70%;
     max-width: 70%;
 
+}
+
+/* Catálogo*/
+
+.Image {
+    max-height: 15% ;
+    max-width:  10%;
+    
+}
+
+.element-information{
+
+    display: flex;
+    
+    
 }
