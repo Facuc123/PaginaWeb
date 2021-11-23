@@ -8,7 +8,7 @@ window.addEventListener("DOMContentLoaded", () =>{
             const container = button.parentNode;
             let orden = {
                 title: container.querySelector('.title').innerText,
-                precio: container.querySelector('.price').innerText,
+                price: container.querySelector('.price').innerText,
                 id: button.getAttribute("data-order")
             }
             localStorage.setItem("orden", JSON.stringify(orden));

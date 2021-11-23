@@ -1,0 +1,41 @@
+.order-selected {
+    display: flex;
+    
+}
+
+.image{
+    max-width: 60%;
+    max-height: 100%;
+}
+
+.productImage{
+    width: 60%;
+}
+
+.element-information{
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+.title{
+    padding: 30px 0 15px 0;
+}
+
+form {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form input{
+    height: 20px;
+    margin: 5px;
+    border: solid;
+    border-radius: 3px;
+}
+
