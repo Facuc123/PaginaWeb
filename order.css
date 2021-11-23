@@ -1,15 +1,19 @@
 .order-selected {
     display: flex;
-    
+    text-align: center;
+    flex-direction: row;
+
 }
 
-.image{
-    max-width: 60%;
-    max-height: 100%;
+#image{
+    height: 100%;
+    width: 40%;
 }
 
 .productImage{
-    width: 60%;
+    
+    width: min-content;
+    height: min-content;
 }
 
 .element-information{
@@ -17,6 +21,16 @@
     font-weight: bolder;
     text-align: center;
     
+}
+
+
+.productImage{
+    flex-grow: 1;
+
+}
+
+.element-information {
+    flex-grow: 2;
 }
 
 .title{
@@ -32,10 +46,56 @@ form {
     align-items: center;
 }
 
+
 form input{
+    border: solid thin #B9ABA8;
     height: 20px;
     margin: 5px;
-    border: solid;
     border-radius: 3px;
 }
 
+.send-button{
+    border-color: #137fd9;
+    background-color: #2196f3;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+}
+
+
+@media (max-width:768px){
+    .order-selected {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #image{
+        height: 120px;
+        width: 60px;
+    }
+
+    .productImage{
+        margin: 0 auto;
+    }
+
+    .send-button{
+        width: 200px;
+        height: 44px;
+    }
+
+    form{
+        margin-top: 20px;
+    }
+
+    form label {
+        font-weight: bold;
+        
+    }
+
+    form input{
+        width: 200px;
+        height: 44px;
+    }
+}

@@ -2,23 +2,23 @@
 
 /* imagenes */
 #imageSamsung {
-    max-height: 100% ;
-    max-width:  50%;
+    max-height: 80% ;
+    max-width:  40%;
 
 }
 
 #imageIphone {
-    max-height: 25%;
-    max-width: 50%;
+    max-height: 20%;
+    max-width: 40%;
 }
 
 #imageHuawei {
-    max-width: 60% ;
-    max-height: 90%;
+    max-width: 50% ;
+    max-height: 80%;
 }
 
-
-section {
+/*--------------------------------------------------------*/
+section { 
     display: flex;
     text-align: center;
     margin: 20px 0 20px 0;
@@ -31,7 +31,28 @@ section > div {
 
 @media (max-width:768px){
     section {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+    }
+
+    button{
+        height: 50px;
+        width: 200px;
+        font-size: large;
+    }
+
+    article{
+        margin: 0 auto;
+    }
+
+    section > div{
+        width: 50%;
+        height: 80%;
+    }
+    
+    .productImage{
+        margin: 0 auto;
     }
 }
 

@@ -88,6 +88,11 @@ article {
     aside{
         margin-left: 2%;
     }
+
+    article{
+        margin: 0 auto;
+    }
+
     
 }
 
